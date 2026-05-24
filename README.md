@@ -5,7 +5,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Elegant Birthday Card</title>
+<title>Birthday Card</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 
@@ -282,7 +282,7 @@ section{
 
 <!-- MUSIC (FOLDER SUPPORT) -->
 <audio id="bgMusic" autoplay loop>
-    <source src="C:\Users\Rizbaiye\Downloads\her.mp3" type="audio/mp3">
+    <source src="her.mp3" type="audio/mp3">
 </audio>
 
 <nav>
@@ -302,7 +302,7 @@ section{
         <p class="subtitle">[ Ekhane Naam / Intro Likho ]</p>
 
         <div class="main-photo">
-            <img src="E:\Images\tanisha.jpeg">
+            <img src="tanisha.jpeg">
         </div>
     </div>
 </section>
