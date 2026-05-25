@@ -425,7 +425,7 @@ section{
         <div class="memory-grid">
 
             <div class="memory">
-                <img src="memory 1.jpeg">
+                <img src="memory 1.jpeg" height="120" weight="120">
                 <p>
                 <small><i>Remember? in SSC special batch when we first met <br>
                 you and I gave final model test together😁 <br>
@@ -433,7 +433,7 @@ section{
             </i></p></div>
 
             <div class="memory">
-                <img src="memory 2">
+                <img src="memory 2" height="120" weight="120">
                 <p><i><small>Remember? We had a Quarrel you returned my book with a "Thank you" note<br>
                 this note will always with me in my life😊 </small></i></p>
             </div>
