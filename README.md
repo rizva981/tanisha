@@ -49,19 +49,9 @@ body{
 }
 
 @keyframes pulse{
-
-    0%{
-        transform:scale(1);
-    }
-
-    50%{
-        transform:scale(1.08);
-    }
-
-    100%{
-        transform:scale(1);
-    }
-
+    0%{transform:scale(1);}
+    50%{transform:scale(1.08);}
+    100%{transform:scale(1);}
 }
 
 /* NAVBAR */
@@ -105,38 +95,14 @@ section{
     opacity:0.9;
 }
 
-.f1{
-    top:30px;
-    left:20px;
-}
-
-.f2{
-    bottom:40px;
-    right:20px;
-    animation-delay:2s;
-}
-
-.f3{
-    top:120px;
-    right:80px;
-    font-size:70px;
-    animation-delay:1s;
-}
+.f1{top:30px;left:20px;}
+.f2{bottom:40px;right:20px;animation-delay:2s;}
+.f3{top:120px;right:80px;font-size:70px;animation-delay:1s;}
 
 @keyframes float{
-
-    0%{
-        transform:translateY(0px) rotate(0deg);
-    }
-
-    50%{
-        transform:translateY(-20px) rotate(5deg);
-    }
-
-    100%{
-        transform:translateY(0px) rotate(0deg);
-    }
-
+    0%{transform:translateY(0px) rotate(0deg);}
+    50%{transform:translateY(-20px) rotate(5deg);}
+    100%{transform:translateY(0px) rotate(0deg);}
 }
 
 /* CARD */
@@ -153,21 +119,10 @@ section{
 
 /* PAGE STYLE */
 
-.page1{
-    background:linear-gradient(135deg,#ffd6e7,#ffeaf4,#fff5fa);
-}
-
-.page2{
-    background:linear-gradient(135deg,#ffe4ee,#fff5fa);
-}
-
-.page3{
-    background:linear-gradient(135deg,#fff0f6,#fff8fb);
-}
-
-.page4{
-    background:linear-gradient(135deg,#ffdce8,#fff5fa);
-}
+.page1{background:linear-gradient(135deg,#ffd6e7,#ffeaf4,#fff5fa);}
+.page2{background:linear-gradient(135deg,#ffe4ee,#fff5fa);}
+.page3{background:linear-gradient(135deg,#fff0f6,#fff8fb);}
+.page4{background:linear-gradient(135deg,#ffdce8,#fff5fa);}
 
 .title{
     font-family:'Dancing Script',cursive;
@@ -217,7 +172,7 @@ section{
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* MEMORY GRID */
+/* MEMORY GRID (FIXED) */
 
 .memory-grid{
     display:grid;
@@ -228,18 +183,27 @@ section{
 
 .memory{
     background:white;
-    padding:30px;
-    min-height:220px;
+    padding:25px;
+    min-height:240px;
     border-radius:25px;
     display:flex;
-    justify-content:center;
+    flex-direction:column;
+    justify-content:flex-start;
     align-items:center;
     text-align:center;
-    font-size:22px;
+    font-size:18px;
     color:#d63384;
     font-weight:600;
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
     transition:0.4s;
+}
+
+.memory img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+    border-radius:15px;
+    margin-bottom:10px;
 }
 
 .memory:hover{
@@ -255,20 +219,21 @@ section{
 }
 
 @keyframes up{
-
-    0%{
-        transform:translateY(0);
-        opacity:1;
-    }
-
-    100%{
-        transform:translateY(-800px);
-        opacity:0;
-    }
-
+    0%{transform:translateY(0);opacity:1;}
+    100%{transform:translateY(-800px);opacity:0;}
 }
 
 /* MOBILE */
+@media(max-width:768px){
+    .floating{
+        font-size:55px;
+        opacity:1;
+    }
+
+    .f1{ top:10px; left:10px; }
+    .f2{ bottom:15px; right:10px; }
+    .f3{ top:80px; right:15px; }
+}
 
 @media(max-width:768px){
 
@@ -279,38 +244,25 @@ section{
         padding:14px 5px;
     }
 
-    nav a{
-        font-size:14px;
-        margin:0;
-    }
+    nav a{font-size:14px;margin:0;}
 
-    .title{
-        font-size:55px;
-    }
+    .title{font-size:55px;}
+    .heading{font-size:42px;}
 
-    .heading{
-        font-size:42px;
-    }
-
-    .floating{
-        font-size:55px;
-    }
+    .floating{font-size:55px;}
 
     .main-photo img{
         width:220px;
         height:220px;
     }
 
-    .card{
-        padding:30px 20px;
-    }
+    .card{padding:30px 20px;}
 
     .intro-title{
         font-size:45px;
         text-align:center;
         padding:20px;
     }
-
 }
 
 </style>
@@ -319,34 +271,20 @@ section{
 
 <body>
 
-<!-- INTRO -->
-
 <div id="intro">
-
-    <h1 class="intro-title">
-        🎀 Tap To Open 🎀
-    </h1>
-
+    <h1 class="intro-title">🎀 Tap To Open 🎀</h1>
 </div>
-
-<!-- MUSIC -->
 
 <audio id="bgMusic" loop>
     <source src="her.mp3" type="audio/mp3">
 </audio>
 
-<!-- NAV -->
-
 <nav>
-
     <a href="#home">Home</a>
     <a href="#message">Message</a>
     <a href="#memory">Memory</a>
     <a href="#wish">Wish</a>
-
 </nav>
-
-<!-- PAGE 1 -->
 
 <section id="home" class="page1">
 
@@ -355,10 +293,7 @@ section{
     <div class="floating f3">🎂</div>
 
     <div class="card">
-
-        <h1 class="title">
-            Happy Birthday
-        </h1>
+        <h1 class="title">Happy Birthday</h1>
 
         <p class="subtitle">
           <i> Tanha Alam Tanisha ❤️</i><br>
@@ -366,16 +301,11 @@ section{
         </p>
 
         <div class="main-photo">
-
             <img src="tanisha.jpeg">
-
         </div>
-
     </div>
 
 </section>
-
-<!-- PAGE 2 -->
 
 <section id="message" class="page2">
 
@@ -385,30 +315,22 @@ section{
 
     <div class="card">
 
-        <h1 class="heading">
-            Special Message 💌
-        </h1>
+        <h1 class="heading">Special Message 💌</h1>
 
         <div class="message-box">
-
-            <font color="deeppink">𝐻𝒶𝓅𝓅𝓎 𝒷𝒾𝓇𝓉𝒽𝒹𝒶𝓎 to the person who really rocks my world </font>💗🎂🎀<br><br>
-
-           <small><i>𝑶𝒏 𝒕𝒉𝒊𝒔 𝒔𝒑𝒆𝒄𝒊𝒂𝒍 𝒅𝒂𝒚, 𝒂 𝒍𝒆𝒈𝒆𝒏𝒅 𝒘𝒂𝒔 𝒃𝒐𝒓𝒏 — 𝑻𝒉𝒆 𝒈𝒆𝒏𝒆𝒓𝒐𝒖𝒔 𝑻𝒂𝒏𝒊𝒔𝒉𝒂. ✨
+            <font color="deeppink">ᕼᗩᑭᑭY ᗷIᖇTᕼᗞᗩY <i>to the person who really rocks my world!✨</i></font>
+            <br>𝑶𝒏 𝒕𝒉𝒊𝒔 𝒔𝒑𝒆𝒄𝒊𝒂𝒍 𝒅𝒂𝒚, 𝒂 𝒍𝒆𝒈𝒆𝒏𝒅 𝒘𝒂𝒔 𝒃𝒐𝒓𝒏 — 𝑻𝒉𝒆 𝒈𝒆𝒏𝒆𝒓𝒐𝒖𝒔 𝑻𝒂𝒏𝒊𝒔𝒉𝒂. ✨
 
 𝑰 𝒑𝒓𝒂𝒚 𝒕𝒉𝒂𝒕 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒃𝒆𝒄𝒐𝒎𝒆𝒔 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔, 𝒔𝒖𝒄𝒄𝒆𝒔𝒔, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒄𝒐𝒖𝒏𝒕𝒍𝒆𝒔𝒔 𝒃𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝒎𝒆𝒎𝒐𝒓𝒊𝒆𝒔. 🤍
 
 𝑴𝒂𝒚 𝒆𝒗𝒆𝒓𝒚 𝒎𝒐𝒎𝒆𝒏𝒕 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒋𝒐𝒖𝒓𝒏𝒆𝒚 𝒃𝒓𝒊𝒏𝒈 𝒚𝒐𝒖 𝒄𝒍𝒐𝒔𝒆𝒓 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒏𝒅 𝒎𝒂𝒌𝒆 𝒚𝒐𝒖 𝒔𝒕𝒓𝒐𝒏𝒈𝒆𝒓, 𝒘𝒊𝒔𝒆𝒓, 𝒂𝒏𝒅 𝒎𝒐𝒓𝒆 𝒄𝒐𝒏𝒇𝒊𝒅𝒆𝒏𝒕. ✨
 
 𝒀𝒐𝒖 𝒅𝒆𝒔𝒆𝒓𝒗𝒆 𝒂𝒍𝒍 𝒕𝒉𝒆 𝒍𝒐𝒗𝒆, 𝒓𝒆𝒔𝒑𝒆𝒄𝒕, 𝒂𝒏𝒅 𝒋𝒐𝒚 𝒊𝒏 𝒕𝒉𝒆 𝒘𝒐𝒓𝒍𝒅 𝒃𝒆𝒄𝒂𝒖𝒔𝒆 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒕𝒓𝒖𝒍𝒚 𝒂𝒏 𝒂𝒎𝒂𝒛𝒊𝒏𝒈 𝒑𝒆𝒓𝒔𝒐𝒏. ❤️
-</i></small>
 
         </div>
 
     </div>
-
 </section>
-
-<!-- PAGE 3 -->
 
 <section id="memory" class="page3">
 
@@ -418,41 +340,31 @@ section{
 
     <div class="card">
 
-        <h1 class="heading">
-            Sweet Memories 🌸
-        </h1>
+        <h1 class="heading">Sweet Memories 🌸</h1>
 
         <div class="memory-grid">
 
             <div class="memory">
-                <img src="memory 1.jpeg" height="120" weight="120">
-                <p>
-                <small><i>Remember? in SSC special batch when we first met <br>
-                you and I gave final model test together😁 <br>
-                but that time I didn't know that we will be the best and first female Friend of my life</small>
-            </i></p></div>
-
-            <div class="memory">
-                <img src="memory 2.jpeg" height="120" weight="120">
-                <p><i><small>Remember? We had a Quarrel you returned my book with a "Thank you" note<br>
-                this note will always with me in my life😊 </small></i></p>
+                <img src="memory 1.jpeg">
+                <p><small>Remember? SSC batch first meeting 😊<br>You & I gave final model test together</small></p>
             </div>
 
             <div class="memory">
-                Endless Happiness 🌸 upcoming on 1st june😊
+                <img src="memory 2.jpeg">
+                <p><small>Thank you note<br>you gave this when we had a serious quarrel😊</small></p>
             </div>
 
-            <div class="memory">
-                Forever Special 🎀 <br>upcoming on 28th june😊
-            </div>
+            <div class="memory">Endless Happiness 🌸
+            <br>Upcoming on 1st june</div>
+
+            <div class="memory">Forever Special 🎀<br>
+            Upcoming on 28th june</div>
 
         </div>
 
     </div>
 
 </section>
-
-<!-- PAGE 4 -->
 
 <section id="wish" class="page4">
 
@@ -462,20 +374,16 @@ section{
 
     <div class="card">
 
-        <h1 class="heading">
-            Final Wish 🎀
-        </h1>
+        <h1 class="heading">Final Wish 🎀</h1>
 
         <div class="final-box">
+           𝑶𝒏𝒄𝒆 𝒂𝒈𝒂𝒊𝒏, 𝑯𝒂𝒑𝒑𝒚 𝑯𝒂𝒑𝒑𝒚 𝑩𝒊𝒓𝒕𝒉𝒅𝒂𝒚 𝑻𝒂𝒏𝒊𝒔𝒉𝒂! ✨<br>
 
-          <em> 𝑶𝒏𝒄𝒆 𝒂𝒈𝒂𝒊𝒏, 𝑯𝒂𝒑𝒑𝒚 𝑯𝒂𝒑𝒑𝒚 𝑩𝒊𝒓𝒕𝒉𝒅𝒂𝒚 𝑻𝒂𝒏𝒊𝒔𝒉𝒂! ✨
-
-<br>𝑴𝒂𝒚 𝒚𝒐𝒖𝒓 𝒔𝒎𝒊𝒍𝒆 𝒏𝒆𝒗𝒆𝒓 𝒇𝒂𝒅𝒆, 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒍𝒘𝒂𝒚𝒔 𝒄𝒐𝒎𝒆 𝒕𝒓𝒖𝒆, 𝒂𝒏𝒅 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒔𝒕𝒂𝒚 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒍𝒐𝒗𝒆, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒆𝒏𝒅𝒍𝒆𝒔𝒔 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔. 𝑺𝒕𝒂𝒚 𝒃𝒍𝒆𝒔𝒔𝒆𝒅 𝒂𝒏𝒅 𝒌𝒆𝒆𝒑 𝒔𝒉𝒊𝒏𝒊𝒏𝒈 𝒇𝒐𝒓𝒆𝒗𝒆𝒓. ❤️
+𝑴𝒂𝒚 𝒚𝒐𝒖𝒓 𝒔𝒎𝒊𝒍𝒆 𝒏𝒆𝒗𝒆𝒓 𝒇𝒂𝒅𝒆, 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒍𝒘𝒂𝒚𝒔 𝒄𝒐𝒎𝒆 𝒕𝒓𝒖𝒆, 𝒂𝒏𝒅 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒔𝒕𝒂𝒚 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒍𝒐𝒗𝒆, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒆𝒏𝒅𝒍𝒆𝒔𝒔 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔. 𝑺𝒕𝒂𝒚 𝒃𝒍𝒆𝒔𝒔𝒆𝒅 𝒂𝒏𝒅 𝒌𝒆𝒆𝒑 𝒔𝒉𝒊𝒏𝒊𝒏𝒈 𝒇𝒐𝒓𝒆𝒗𝒆𝒓. ❤️
 
 — 𝒀𝒐𝒖𝒓 𝒃𝒆𝒔𝒕 𝒂𝒏𝒅 𝒇𝒊𝒓𝒔𝒕 𝒎𝒂𝒍𝒆 𝒇𝒓𝒊𝒆𝒏𝒅,
 𝑹𝒊𝒛𝒗𝒂 “𝑻𝒉𝒆 𝑩𝑨𝑻𝑴𝑨𝑵” 🖤✨
 (𝒃𝒆𝒔𝒕 𝒃𝒆𝒄𝒂𝒖𝒔𝒆 𝒏𝒐 𝒐𝒏𝒆 𝒘𝒊𝒍𝒍 𝒎𝒂𝒌𝒆 𝒂 𝒘𝒉𝒐𝒍𝒆 𝒘𝒆𝒃𝒑𝒂𝒈𝒆 𝒇𝒐𝒓 𝒚𝒐𝒖 👀🖤✨)
-</em>
 
         </div>
 
@@ -485,47 +393,25 @@ section{
 
 <script>
 
-/* INTRO TAP SYSTEM */
+const intro=document.getElementById("intro");
+const music=document.getElementById("bgMusic");
 
-const intro = document.getElementById("intro");
-const music = document.getElementById("bgMusic");
-
-intro.addEventListener("click", ()=>{
-
+intro.addEventListener("click",()=>{
     music.play();
-
-    intro.style.opacity = "0";
-
-    setTimeout(()=>{
-        intro.style.display = "none";
-    },1000);
-
+    intro.style.opacity="0";
+    setTimeout(()=>{intro.style.display="none";},1000);
 });
 
-/* HEART ANIMATION */
-
 function createHeart(){
-
-    const heart = document.createElement("div");
-
+    const heart=document.createElement("div");
     heart.classList.add("heart");
-
-    heart.innerHTML = "❤";
-
-    heart.style.left = Math.random() * window.innerWidth + "px";
-
-    heart.style.bottom = "-20px";
-
-    heart.style.fontSize = Math.random() * 20 + 20 + "px";
-
+    heart.innerHTML="❤";
+    heart.style.left=Math.random()*window.innerWidth+"px";
+    heart.style.bottom="-20px";
+    heart.style.fontSize=(Math.random()*20+20)+"px";
     document.body.appendChild(heart);
-
-    setTimeout(()=>{
-        heart.remove();
-    },5000);
-
+    setTimeout(()=>heart.remove(),5000);
 }
-
 setInterval(createHeart,500);
 
 </script>
