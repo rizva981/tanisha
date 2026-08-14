@@ -318,14 +318,11 @@ section{
         <h1 class="heading">Special Message 💌</h1>
 
         <div class="message-box">
-            <font color="deeppink">ᕼᗩᑭᑭY ᗷIᖇTᕼᗞᗩY <i>to the person who really rocks my world!✨</i></font>
-            <br>𝑶𝒏 𝒕𝒉𝒊𝒔 𝒔𝒑𝒆𝒄𝒊𝒂𝒍 𝒅𝒂𝒚, 𝒂 𝒍𝒆𝒈𝒆𝒏𝒅 𝒘𝒂𝒔 𝒃𝒐𝒓𝒏 — 𝑻𝒉𝒆 𝒈𝒆𝒏𝒆𝒓𝒐𝒖𝒔 𝑻𝒂𝒏𝒊𝒔𝒉𝒂. ✨
+            <font color="deeppink">I really love you  my world!✨</i></font>
+            <br>I don't will u ever open this page again but I am leaving a note cz what else I could do <br>
 
-𝑰 𝒑𝒓𝒂𝒚 𝒕𝒉𝒂𝒕 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒃𝒆𝒄𝒐𝒎𝒆𝒔 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔, 𝒔𝒖𝒄𝒄𝒆𝒔𝒔, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒄𝒐𝒖𝒏𝒕𝒍𝒆𝒔𝒔 𝒃𝒆𝒂𝒖𝒕𝒊𝒇𝒖𝒍 𝒎𝒆𝒎𝒐𝒓𝒊𝒆𝒔. 🤍
-
-𝑴𝒂𝒚 𝒆𝒗𝒆𝒓𝒚 𝒎𝒐𝒎𝒆𝒏𝒕 𝒐𝒇 𝒚𝒐𝒖𝒓 𝒋𝒐𝒖𝒓𝒏𝒆𝒚 𝒃𝒓𝒊𝒏𝒈 𝒚𝒐𝒖 𝒄𝒍𝒐𝒔𝒆𝒓 𝒕𝒐 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒏𝒅 𝒎𝒂𝒌𝒆 𝒚𝒐𝒖 𝒔𝒕𝒓𝒐𝒏𝒈𝒆𝒓, 𝒘𝒊𝒔𝒆𝒓, 𝒂𝒏𝒅 𝒎𝒐𝒓𝒆 𝒄𝒐𝒏𝒇𝒊𝒅𝒆𝒏𝒕. ✨
-
-𝒀𝒐𝒖 𝒅𝒆𝒔𝒆𝒓𝒗𝒆 𝒂𝒍𝒍 𝒕𝒉𝒆 𝒍𝒐𝒗𝒆, 𝒓𝒆𝒔𝒑𝒆𝒄𝒕, 𝒂𝒏𝒅 𝒋𝒐𝒚 𝒊𝒏 𝒕𝒉𝒆 𝒘𝒐𝒓𝒍𝒅 𝒃𝒆𝒄𝒂𝒖𝒔𝒆 𝒚𝒐𝒖 𝒂𝒓𝒆 𝒕𝒓𝒖𝒍𝒚 𝒂𝒏 𝒂𝒎𝒂𝒛𝒊𝒏𝒈 𝒑𝒆𝒓𝒔𝒐𝒏. ❤️
+I am hoping that one day you will open his page and see what I said to u <br>
+I really miss u I wish I could talk to you again as we used to do
 
         </div>
 
