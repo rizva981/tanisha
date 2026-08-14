@@ -319,10 +319,10 @@ section{
 
         <div class="message-box">
             <font color="deeppink">I really love you  my world!✨</i></font>
-            <br>I don't will u ever open this page again but I am leaving a note cz what else I could do <br>
+            <br>I don't really know that you  will u ever open this page again but I am leaving a note cz what else I could do <br>
 
 I am hoping that one day you will open his page and see what I said to u <br>
-I really miss u I wish I could talk to you again as we used to do
+I really miss u I wish I could talk to you again as we used to do<br> I am kindda optimist that you will read this one day and U will just want to say I truely loved you and I still does :)
 
         </div>
 
