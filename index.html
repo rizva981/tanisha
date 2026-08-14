@@ -354,11 +354,11 @@ section{
                 <p><small>Thank you note<br>you gave this when we had a serious quarrel😊</small></p>
             </div>
 
-            <div class="memory">Endless Happiness 🌸
-            <br>Upcoming on 1st june</div>
+            <div class="memory">nothing left🌸
+            <br>I have deleted every  pictures of  yours <br>
+            I have nothing to attach here
+            </div>
 
-            <div class="memory">Forever Special 🎀<br>
-            Upcoming on 28th june</div>
 
         </div>
 
