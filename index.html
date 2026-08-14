@@ -293,11 +293,11 @@ section{
     <div class="floating f3">🎂</div>
 
     <div class="card">
-        <h1 class="title">Happy Birthday</h1>
+        <h1 class="title">I love you</h1>
 
         <p class="subtitle">
           <i> Tanha Alam Tanisha ❤️</i><br>
-           <small><font color="deeppink">Princess Diana</font></small>
+           <small><font color="deeppink">Forever<3</font></small>
         </p>
 
         <div class="main-photo">
