@@ -293,7 +293,7 @@ section{
     <div class="floating f3">🎂</div>
 
     <div class="card">
-        <h1 class="title">Happy Birthday/h1>
+        <h1 class="title">Happy Birthday</h1>
 
         <p class="subtitle">
           <i> Tanha Alam Tanisha ❤️</i><br>
@@ -315,14 +315,10 @@ section{
 
     <div class="card">
 
-        <h1 class="heading">Special Message 💌</h1>
-
+        <h1 class="heading">Message 💌</h1>
         <div class="message-box">
-            <font color="deeppink">I really love you  my world!✨</i></font>
-            <br>I don't really know that you  will u ever open this page again but I am leaving a note cz what else I could do <br>
-
+            <font color="deeppink">I'm sorry for everything✨</i></font> 
         </div>
-
     </div>
 </section>
 
