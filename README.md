@@ -296,7 +296,7 @@ section{
         <h1 class="title">Happy Birthday</h1>
 
         <p class="subtitle">
-          <i> Tanha Alam Tanisha ❤️</i><br>
+          <i> Tanha Alam Tanisha </i><br>
            <small><font color="deeppink">Topper<3</font></small>
         </p>
 
@@ -364,9 +364,8 @@ section{
 
 𝑴𝒂𝒚 𝒚𝒐𝒖𝒓 𝒔𝒎𝒊𝒍𝒆 𝒏𝒆𝒗𝒆𝒓 𝒇𝒂𝒅𝒆, 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒍𝒘𝒂𝒚𝒔 𝒄𝒐𝒎𝒆 𝒕𝒓𝒖𝒆, 𝒂𝒏𝒅 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒔𝒕𝒂𝒚 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒍𝒐𝒗𝒆, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒆𝒏𝒅𝒍𝒆𝒔𝒔 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔. 𝑺𝒕𝒂𝒚 𝒃𝒍𝒆𝒔𝒔𝒆𝒅 𝒂𝒏𝒅 𝒌𝒆𝒆𝒑 𝒔𝒉𝒊𝒏𝒊𝒏𝒈 𝒇𝒐𝒓𝒆𝒗𝒆𝒓. ❤️
 
-— 𝒀𝒐𝒖𝒓 𝒃𝒆𝒔𝒕 𝒂𝒏𝒅 𝒇𝒊𝒓𝒔𝒕 𝒎𝒂𝒍𝒆 𝒇𝒓𝒊𝒆𝒏𝒅,
+— 𝒀𝒐𝒖𝒓 not that good 𝒇𝒓𝒊𝒆𝒏𝒅 perhaps,
 𝑹𝒊𝒛𝒗𝒂 “𝑻𝒉𝒆 𝑩𝑨𝑻𝑴𝑨𝑵” 🖤✨
-(𝒃𝒆𝒔𝒕 𝒃𝒆𝒄𝒂𝒖𝒔𝒆 𝒏𝒐 𝒐𝒏𝒆 𝒘𝒊𝒍𝒍 𝒎𝒂𝒌𝒆 𝒂 𝒘𝒉𝒐𝒍𝒆 𝒘𝒆𝒃𝒑𝒂𝒈𝒆 𝒇𝒐𝒓 𝒚𝒐𝒖 👀🖤✨)
 
         </div>
 
