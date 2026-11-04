@@ -38,7 +38,8 @@ body{
     align-items:center;
     z-index:99999;
     backdrop-filter:blur(10px);
-    transition:1s;
+    transition:opacity 1s ease;
+    cursor:pointer;
 }
 
 .intro-title{
@@ -172,7 +173,7 @@ section{
     box-shadow:0 10px 25px rgba(0,0,0,0.08);
 }
 
-/* MEMORY GRID (FIXED) */
+/* MEMORY GRID */
 
 .memory-grid{
     display:grid;
@@ -216,6 +217,7 @@ section{
     position:absolute;
     color:#ff4d8d;
     animation:up 5s linear infinite;
+    pointer-events:none;
 }
 
 @keyframes up{
@@ -233,9 +235,6 @@ section{
     .f1{ top:10px; left:10px; }
     .f2{ bottom:15px; right:10px; }
     .f3{ top:80px; right:15px; }
-}
-
-@media(max-width:768px){
 
     nav{
         display:flex;
@@ -248,8 +247,6 @@ section{
 
     .title{font-size:55px;}
     .heading{font-size:42px;}
-
-    .floating{font-size:55px;}
 
     .main-photo img{
         width:220px;
@@ -297,11 +294,11 @@ section{
 
         <p class="subtitle">
           <i> Tanha Alam Tanisha </i><br>
-           <small><font color="deeppink">Topper<3</font></small>
+           <small><font color="deeppink">Topper&lt;3</font></small>
         </p>
 
         <div class="main-photo">
-            <img src="tanisha.jpeg">
+            <img src="tanisha.jpeg" alt="Tanisha">
         </div>
     </div>
 
@@ -317,7 +314,7 @@ section{
 
         <h1 class="heading">Message 💌</h1>
         <div class="message-box">
-            <font color="deeppink">I'm sorry for everything✨</i></font> 
+            <font color="deeppink">I'm sorry for everything✨</font> 
         </div>
     </div>
 </section>
@@ -335,12 +332,12 @@ section{
         <div class="memory-grid">
 
             <div class="memory">
-                <img src="memory 1.jpeg">
+                <img src="memory 1.jpeg" alt="Memory 1">
                 <p><small>Remember? SSC batch first meeting 😊<br>You & I gave final model test together</small></p>
             </div>
 
             <div class="memory">
-                <img src="memory 2.jpeg">
+                <img src="memory 2.jpeg" alt="Memory 2">
                 <p><small>Thank you note<br>you gave this when we had a serious quarrel😊</small></p>
             </div>
         </div>
@@ -360,13 +357,12 @@ section{
         <h1 class="heading">Final Wish 🎀</h1>
 
         <div class="final-box">
-           𝑶𝒏𝒄𝒆 𝒂𝒈𝒂𝒊𝒏, 𝑯𝒂𝒑𝒑𝒚 𝑯𝒂𝒑𝒑𝒚 𝑩𝒊𝒓𝒕𝒉𝒅𝒂𝒚 𝑻𝒂𝒏𝒊𝒔𝒉𝒂! ✨<br>
+            𝑶𝒏𝒄𝒆 𝒂𝒈𝒂𝒊𝒏, 𝑯𝒂𝒑𝒑𝒚 𝑯𝒂𝒑𝒑𝒚 𝑩𝒊𝒓𝒕𝒉𝒅𝒂𝒚 𝑻𝒂𝒏𝒊𝒔𝒉𝒂! ✨<br><br>
 
-𝑴𝒂𝒚 𝒚𝒐𝒖𝒓 𝒔𝒎𝒊𝒍𝒆 𝒏𝒆𝒗𝒆𝒓 𝒇𝒂𝒅𝒆, 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒍𝒘𝒂𝒚𝒔 𝒄𝒐𝒎𝒆 𝒕𝒓𝒖𝒆, 𝒂𝒏𝒅 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒔𝒕𝒂𝒚 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒍𝒐𝒗𝒆, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒆𝒏𝒅𝒍𝒆𝒔𝒔 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔. 𝑺𝒕𝒂𝒚 𝒃𝒍𝒆𝒔𝒔𝒆𝒅 𝒂𝒏𝒅 𝒌𝒆𝒆𝒑 𝒔𝒉𝒊𝒏𝒊𝒏𝒈 𝒇𝒐𝒓𝒆𝒗𝒆𝒓. ❤️
+            𝑴𝒂𝒚 𝒚𝒐𝒖𝒓 𝒔𝒎𝒊𝒍𝒆 𝒏𝒆𝒗𝒆𝒓 𝒇𝒂𝒅𝒆, 𝒚𝒐𝒖𝒓 𝒅𝒓𝒆𝒂𝒎𝒔 𝒂𝒍𝒘𝒂𝒚𝒔 𝒄𝒐𝒎𝒆 𝒕𝒓𝒖𝒆, 𝒂𝒏𝒅 𝒚𝒐𝒖𝒓 𝒍𝒊𝒇𝒆 𝒔𝒕𝒂𝒚 𝒇𝒊𝒍𝒍𝒆𝒅 𝒘𝒊𝒕𝒉 𝒍𝒐𝒗𝒆, 𝒑𝒆𝒂𝒄𝒆, 𝒂𝒏𝒅 𝒆𝒏𝒅𝒍𝒆𝒔𝒔 𝒉𝒂𝒑𝒑𝒊𝒏𝒆𝒔𝒔. 𝑺𝒕𝒂𝒚 𝒃𝒍𝒆𝒔𝒔𝒆𝒅 𝒂𝒏𝒅 𝒌𝒆𝒆𝒑 𝒔𝒉𝒊𝒏𝒊𝒏𝒈 𝒇𝒐𝒓𝒆𝒗𝒆𝒓. ❤️<br><br>
 
-— 𝒀𝒐𝒖𝒓 not that good 𝒇𝒓𝒊𝒆𝒏𝒅 perhaps,
-𝑹𝒊𝒛𝒗𝒂 “𝑻𝒉𝒆 𝑩𝑨𝑻𝑴𝑨𝑵” 🖤✨
-
+            — 𝒀𝒐𝒖𝒓 not that good 𝒇𝒓𝒊𝒆𝒏𝒅 perhaps,<br>
+            𝑹𝒊𝒛𝒗𝒂 “𝑻𝒉𝒆 𝑩𝑨𝑻𝑴𝑨𝑵”
         </div>
 
     </div>
@@ -374,24 +370,35 @@ section{
 </section>
 
 <script>
+const intro = document.getElementById("intro");
+const music = document.getElementById("bgMusic");
 
-const intro=document.getElementById("intro");
-const music=document.getElementById("bgMusic");
+intro.addEventListener("click", () => {
+    // Play music safely without blocking transition
+    music.play().catch(error => {
+        console.log("Audio playback failed or was blocked:", error);
+    });
 
-intro.addEventListener("click",()=>{
-    music.play();
-    intro.style.opacity="0";
-    setTimeout(()=>{intro.style.display="none";},1000);
+    // Smoothly fade out and hide intro overlay
+    intro.style.opacity = "0";
+    setTimeout(() => {
+        intro.style.display = "none";
+    }, 1000);
 });
 
-function createHeart(){
-    const heart=document.createElement("div");
+function createHeart() {
+    const heart = document.createElement("div");
     heart.classList.add("heart");
-    heart.innerHTML="❤";
-    heart.style.left=Math.random()*window.innerWidth+"px";
-    heart.style.bottom="-20px";
-    heart.style.fontSize=(Math.random()*20+20)+"px";
+    heart.innerHTML = "❤";
+    heart.style.left = Math.random() * window.innerWidth + "px";
+    heart.style.bottom = "-20px";
+    heart.style.fontSize = (Math.random() * 20 + 20) + "px";
     document.body.appendChild(heart);
-    setTimeout(()=>heart.remove(),5000);
+    setTimeout(() => heart.remove(), 5000);
 }
-setInterval(createHeart,500);
+
+setInterval(createHeart, 500);
+</script>
+
+</body>
+</html>
